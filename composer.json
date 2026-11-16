@@ -1,6 +1,6 @@
 {
   "name": "starbug/api",
-  "type": "library",
+  "type": "starbug-module",
   "description": "API response and controller infrastructure for Starbug.",
   "license": "GPL-3.0-or-later",
   "authors": [
@@ -10,10 +10,7 @@
     }
   ],
   "extra": {
-    "starbug": {
-      "type": "module",
-      "namespace": "Starbug\\Api"
-    }
+    "namespace": "Starbug\\Api"
   },
   "require": {
     "php": ">=8.0",
